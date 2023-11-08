@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.12",
+    "devexpress-diagram": "2.2.2",
+    "devexpress-gantt": "4.1.49",
+    "devextreme": "23.1.6",
+    "devextreme-quill": "1.6.2",
+    "devextreme-react": "23.1.6",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "latest",
+    "inferno-compat": "latest",
+    "inferno-create-class": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "latest",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.1",
+    "prettier": "2.8.4",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "The Master-Detail View allows users to expand a row ('master') and display the related content ('details') in the expanded section. To configure this feature, set the the masterDetail object's enabled property to true and use a template to specify detail section content. In this demo, the detail section displays another DataGrid.\n",
+  "name": "grid-demo",
+  "keywords": [],
+  "version": "0.0.5",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
