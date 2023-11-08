@@ -14,7 +14,8 @@ const employees = service.getEmployees();
 
 class App extends React.Component {
   render() {
-    return (
+    return (<div>
+        <h4>Demo</h4>
       <DataGrid id="grid-container"
         dataSource={employees}
         keyExpr="ID"
@@ -31,6 +32,7 @@ class App extends React.Component {
           component={DetailTemplate}
         />
       </DataGrid>
+        </div>
     );
   }
 }
